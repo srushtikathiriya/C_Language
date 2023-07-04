@@ -1,16 +1,16 @@
 #include<stdio.h>
  int main()
  {
-   int rows,i,j;
-   printf("enter the no of rows:");
-   scanf("%d",&rows);
-   for(i=1;i<=rows;i++)
+   int n,i,j;
+   printf("enter the n:");
+   scanf("%d",&n);
+   for(i=1;i<=n;i++)
     {
       for(j=1;j<=i;j++)
       {
-       if(i==rows||j==1||j==i)
+       if(i==n||j==1||j==i)
        {
-         printf("*");
+         printf("* ");
        }
        else
        {
